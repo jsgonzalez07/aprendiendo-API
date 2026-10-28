@@ -19,7 +19,7 @@ import org.json.JSONObject;
 public class ApiService {
     //Crear nuestro cliente
     private static final HttpClient httpclient = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
-    private static final String API_URL="https://jsonplaceholder.typicode.com/posts";//endpoints
+    private static final String API_URL="https://jsonplaceholder.typicode.com/posts/";//endpoints
     public Post getPost(int id)throws IOException, InterruptedException{
         
     //Construimoss la petición
